@@ -25,6 +25,40 @@
       </ul>
       <p>We talked about forms in week 3. For full credit, your inputs should all have properly associated labels
       and should each be in its own fieldset. Your form does not need a submit button.</p>
+      <fieldset>
+        <legend>Name</legend>
+        <label for="Name-input">
+            First Name: 
+            <input type="text" value=""><br>
+            Last Name: 
+            <input type="text" value="">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Status</legend>
+        <label for="radio-input">
+            Are you a Northeastern Student?
+            <label for="radio1val1">
+              <input type="radio" name="radio 1" value=""> Yes
+            </label>
+            <label for="radio1val2">
+              <input type="radio" name="radio 1" value=""> No
+            </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>choice</legend>
+        <label for="select-input">
+          Your favorite HTML header<br>
+          <select multiple>
+                <option value="h1">h1</option>
+                <option value="h2">h2</option>
+                <option value="h3">h3</option>
+                <option value="h4">h4</option>
+                <option value="h5">h5</option>
+                <option value="h6">h6</option>
+          </select>
+      </fieldset>
     </main>
   </body>
 </html>

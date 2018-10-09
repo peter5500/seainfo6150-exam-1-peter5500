@@ -9,6 +9,45 @@
       <h1>Question 10. Duplicate your form from question 9 below.</h1>
       <p>This time, give it a submit button and the ability to submit its data to this file (question-10.html) via the appropriate action and method.</p>
       <p>We talked about forms in week 3. For full credit, your inputs should all be named appropriately so that I can validate the submitted data.</p>
+      <form action="post.html" method="post">
+      <fieldset>
+        <legend>Name</legend>
+        <label for="Name-input">
+            First Name: 
+            <input type="text" id="firstnameinput" name="FirstNameInput"><br>
+            Last Name: 
+            <input type="text" id="lastnameinput" name="LastNameInput">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Status</legend>
+        <label for="radio-input">
+            Are you a Northeastern Student?
+            <label for="radio1val1">
+              <input type="radio" id="radioval1" name="radio 1" value=""> Yes
+            </label>
+            <label for="radio1val2">
+              <input type="radio" id="radioval2" name="radio 1" value=""> No
+            </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Choice</legend>
+        <label for="select-input">
+          Your favorite HTML header<br>
+          <select class="" name="SelectInput" id="selectinput" multiple>
+                <option value="h1">h1</option>
+                <option value="h2">h2</option>
+                <option value="h3">h3</option>
+                <option value="h4">h4</option>
+                <option value="h5">h5</option>
+                <option value="h6">h6</option>
+          </select>
+      </fieldset>
+      <fieldset data="value">
+          <input type="submit" value="Submit">
+      </fieldset>
+      </form>
     </main>
   </body>
 </html>
